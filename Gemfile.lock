@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/bmabey/database_cleaner.git
-  revision: b8edac6bd04fb89a267201fa8d47066d511fd9de
+  revision: 774e1d4dc306f2348ffe67842cbc7e46488c68d7
   specs:
-    database_cleaner (1.4.1)
+    database_cleaner (1.5.0)
 
 GEM
   remote: https://rubygems.org/
@@ -38,6 +38,8 @@ GEM
     bootstrap-will_paginate (0.0.9)
       will_paginate
     builder (3.1.4)
+    byebug (5.0.0)
+      columnize (= 0.9.0)
     capybara (2.1.0)
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -56,6 +58,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    columnize (0.9.0)
     cucumber (2.0.2)
       builder (>= 2.1.2)
       cucumber-core (~> 1.2.0)
@@ -129,6 +132,9 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
       win32console (~> 1.3)
+    pry-byebug (3.2.0)
+      byebug (~> 5.0)
+      pry (~> 0.10)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -205,7 +211,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
-    timers (4.0.1)
+    timers (4.0.4)
       hitimes
     treetop (1.4.15)
       polyglot
@@ -245,6 +251,7 @@ DEPENDENCIES
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
   pg (= 0.15.1)
+  pry-byebug
   rails (= 4.0.5)
   rails_12factor (= 0.0.2)
   rspec-rails (= 2.13.1)
